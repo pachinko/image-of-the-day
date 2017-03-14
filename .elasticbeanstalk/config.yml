@@ -1,15 +1,18 @@
 branch-defaults:
   pac_practice:
-    environment: iotd-py2
+    environment: custom-env-1
     group_suffix: null
 environment-defaults:
+  Custom-env:
+    branch: null
+    repository: null
   iotd:
     branch: null
     repository: null
 global:
-  application_name: iotd_py2
+  application_name: iotd-python2
   branch: null
-  default_ec2_keyname: TokyoSparkKeyPair
+  default_ec2_keyname: null
   default_platform: arn:aws:elasticbeanstalk:ap-northeast-1::platform/Python 3.4 running
     on 64bit Amazon Linux/2.3.2
   default_region: ap-northeast-1
